@@ -329,3 +329,62 @@ body.layout--team_member .page__content {
   color: #007acc;
   transform: scale(1.1);
 }
+
+/* Make the whole footer flex: left = default, right = INTERSECT */
+.custom-footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap; /* wrap on small screens */
+  padding: 1rem 0;
+}
+
+/* LEFT: keep as-is */
+.footer-left {
+  flex: 1;
+  min-width: 250px;
+}
+
+/* RIGHT: logo + text nicely aligned */
+.footer-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  max-width: 380px;
+  font-size: 0.75rem;   /* match copyright text size */
+  line-height: 1.3;
+  color: #666;
+}
+
+.footer-right .footer-logo {
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 4px; /* slight rounding for polish */
+}
+
+.footer-right p {
+  margin: 0;
+}
+
+.footer-right a {
+  color: #f4b400; /* nice accent color for grant link */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-right a:hover {
+  text-decoration: underline;
+}
+
+/* Make layout stack nicely on mobile */
+@media (max-width: 800px) {
+  .custom-footer-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  .footer-right {
+    max-width: 100%;
+  }
+}
