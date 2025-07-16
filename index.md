@@ -3,7 +3,7 @@ layout: splash
 title: "Project EGOS"
 subtitle: "Effective Governance for Online Safety"
 description: >
-  EGOS explores governance mechanisms to enhance online safety, balancing security, oversight, and public trust.
+  EGOS is an academic initiative to improve cybersecurity and online safety through better security, regulation, and AI harm prevention.
 header:
   cta_label: "Learn More"
   cta_url: "/about/"
