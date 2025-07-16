@@ -1,0 +1,56 @@
+---
+layout: single
+hide_title: true
+---
+
+{% assign member = site.data.team | where: "id", page.member_id | first %}
+
+<article class="page team-member-article" itemscope itemtype="http://schema.org/Person">
+
+  <!-- Flex layout first -->
+  <div class="team-profile-wrapper">
+    <!-- LEFT: Photo -->
+    <div class="team-profile-photo">
+      <img src="{{ member.photo }}" alt="{{ member.name }}">
+      <h1>{{ member.name }}</h1>
+      <h3>{{ member.role }}</h3>
+      <p class="team-institution">
+        <a href="{{ member.institution_url }}">{{ member.institution }}</a>
+      </p>
+      <div class="team-profile-links">
+      	{% if member.website %}
+      	<a href="{{ member.website }}">🔗</a>
+      	{% endif %}
+        {% if member.email %}
+        <a href="mailto:{{ member.email }}">✉️</a>
+        {% endif %}
+        {% if member.scholar %}
+        <a href="{{ member.scholar }}">🎓</a>
+        {% endif %}
+      </div>
+    </div>
+
+    <!-- RIGHT: Bio -->
+    <div class="team-profile-bio">
+      {{ member.bio }}
+    </div>
+  </div>
+
+  <!-- SINGLE Latest Publications Section -->
+  <section class="team-publications">
+    <h2>Latest</h2>
+    <ul class="team-latest-pubs">
+      {% assign pubs = site.data.publications | where_exp: "pub", "pub.authors contains member.name" %}
+      {% if pubs.size > 0 %}
+        {% for pub in pubs %}
+          <li>
+            <a href="{{ pub.pdf }}">{{ pub.title }}</a> <em>{{ pub.venue }}, {{ pub.year }}</em>
+          </li>
+        {% endfor %}
+      {% else %}
+        <li>No publications listed yet.</li>
+      {% endif %}
+    </ul>
+  </section>
+
+</article>
