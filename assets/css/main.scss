@@ -335,9 +335,10 @@ body.layout--team_member .page__content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 2rem;
+  gap: 1.5rem;
   flex-wrap: wrap; /* wrap on small screens */
-  padding: 1rem 0;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 /* LEFT: keep as-is */
@@ -386,5 +387,11 @@ body.layout--team_member .page__content {
   }
   .footer-right {
     max-width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-right .footer-logo {
+    height: 40px; /* smaller logo on small screens */
   }
 }
