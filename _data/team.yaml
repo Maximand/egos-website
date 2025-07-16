@@ -8,7 +8,13 @@
   website: "https://krlos.nl"
   email: "C.HernandezGanan@tudelft.nl"
   scholar: "https://scholar.google.com/citations?user=XXXX"
-  bio: "XX"
+  bio: "Carlos is an Internet security researcher with a background in information security and governance. His research focuses on understanding and improving the Internet for everyone, with particular emphasis on security aspects. Most recently, Carlos has worked on global-scale measurement of Internet service deployments and their security, data-driven security mechanisms, and the analysis of emerging technologies and their implications.
+  
+  Carlos approaches his work through the lens of real-world impact. The technology itself is not always what matters—it is its embedding in society that makes it meaningful. For this reason, he collaborates across disciplines and with industry to help make the Internet a safer, more secure, and ultimately more useful and interesting place.
+  
+  In addition to his research on Internet security, Carlos is dedicated to using his skills and expertise to make a positive impact on the world. He believes that everyone has the right to use the Internet safely and securely, and he is committed to advancing this goal through his research and collaborations.
+  
+  Carlos’s work employs global-scale measurements and data-driven security mechanisms to study the deployment and security of Internet services. He also examines the implications of emerging technologies on the Internet. Whether conducting measurement studies or analyzing technological trends, Carlos always strives to find practical solutions that can improve the Internet for all users."
 
 - id: "savvas-zannettou"
   name: "Savvas Zannettou"
@@ -20,7 +26,52 @@
   website: "https://zsavvas.github.io"
   email: "S.Zannettou@tudelft.nl"
   scholar: "https://scholar.google.com/citations?user=XXXX"
-  bio: "XX"
+
+- id: "michel-van-eeten"
+  name: "Michel van Eeten"
+  role: "Full Professor"
+  institution: "TU Delft"
+  institution-url: "https://tudelft.nl"
+  photo: "/assets/team/michel.png"
+  profile: "/team/michel-van-eeten/"
+  email: "M.J.G.vanEeten@tudelft.nl"
+  scholar: "https://scholar.google.com/citations?user=XXXX"
+  bio: "Professor Michel van Eeten is professor at Delft University of Technology and his chair focuses on the Governance of Cybersecurity. He studies the interplay between technological design and economic incentives in Internet security. His team analyses large-scale Internet measurement and incident data to identify how the markets for Internet services deal with security risks.
+  
+  He has conducted empirical studies funded by NWO, the ITU, the OECD, the Department of Homeland Security, the European Commission, the Dutch National Police, the General Intelligence and Security Service, Fox-IT, banks, and various ministries within the Dutch government. Topics range from botnet mitigation, threat intelligence and abuse reporting, network measurements, information sharing, security metrics, to cybercrime markets.
+  
+  Van Eeten is also a member of the Cyber Security Council, an official advisory body of the Dutch government."
+
+- id: "yury-zhauniarovich"
+  name: "Yury Zhauniarovich"
+  role: "Assistant Professor"
+  institution: "TU Delft"
+  institution-url: "https://tudelft.nl"
+  photo: "/assets/team/yury.png"
+  profile: "/team/yury-zhauniarovich/"
+  website: "https://zhauniarovich.com"
+  email: "Y.Zhauniarovich@tudelft.nl"
+  scholar: "https://scholar.google.com/citations?user=XXXX"
+  bio: "Yury Zhauniarovich is currently an Assistant Professor in Cybersecurity at the Technology, Policy and Management (TPM) faculty of TU Delft. Previously, he worked both in industry as R&D Engineer at Vertx, Lead Data Scientist at AI Superior, and Head of R&D at Perfect Equanimity; and in academia as Scientist at Qatar Computing Research Institute and Postdoc at the University of Trento. In April 2014, Yury received his PhD degree in Computer Security from the University of Trento working under the guidance of Prof. Bruno Crispo. In 2007, Yury Zhauniarovich got the MSc (eq.) degree in Computer Security from the Belarusian State University, Department of Radiophysics and Computer Technologies."
+
+  
+- id: "pieter-wolters"
+  name: "Pieter Wolters"
+  role: "Full Professor"
+  institution: "Radboud Universiteit"
+  institution-url: "https://ru.nl"
+  photo: "/assets/team/pieter-wolters.png"
+  profile: "/team/pieter-wolters/"
+  scholar: "https://scholar.google.com/citations?user=XXXX"
+ 
+- id: "frederik-zuiderveen-borgesius"
+  name: "Frederik Zuiderveen Borgesius"
+  role: "Full Professor"
+  institution: "Radboud Universiteit"
+  institution-url: "https://ru.nl"
+  photo: "/assets/team/frederik-zuiderveen-borgesius.png"
+  profile: "/team/frederik-zuiderveen-borgesius/"
+  scholar: "https://scholar.google.com/citations?user=XXXX"
 
 - id: "max-van-der-horst"
   name: "Max van der Horst"
@@ -32,4 +83,4 @@
   website: "https://disclosing.observer"
   email: "m.h.vanderhorst@tudelft.nl"
   scholar: "https://scholar.google.com/citations?user=XXXX"
-  bio: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+  bio: ""

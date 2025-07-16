@@ -10,7 +10,11 @@ permalink: /team/
 {% for member in site.data.team %}
   <div class="team-member">
     <img src="{{ member.photo }}" alt="{{ member.name }}">
-    <h3><a href="/team/{{ member.id }}/">{{ member.name }}</a></h3>
+    {% if member.bio %}
+      <h3><a href="/team/{{ member.id }}/">{{ member.name }}</a></h3>
+    {% else %}
+      <h3>{{ member.name }}</h3>
+    {% endif %}
     <p>{{ member.role }}</p>
     <div class="team-links">
       {% if member.website %}

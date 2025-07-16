@@ -120,17 +120,41 @@ search: false
 /* ================================================
    TEAM GRID (LIST VIEW)
    ================================================ */
+/* Make team grid cards flexible */
 .team-grid {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
-  margin-top: 2rem;
+  align-items: stretch; /* force equal height rows */
 }
 
 .team-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  width: 180px;
+}
+
+/* Equalize the height of the name + role area */
+.team-member h3,
+.team-member p {
+  margin: 0.3rem 0;
+}
+
+/* Reduce spacing between name and title */
+.team-member h3 {
+  margin-bottom: 0.2rem; /* smaller gap below the name */
+}
+
+.team-member p {
+  margin-top: 0;         /* remove extra top margin */
+  margin-bottom: 0.4rem; /* small gap before the icons */
+}
+
+/* Icons stay at the bottom */
+.team-links {
+  margin-top: auto; /* pushes icons to bottom for equal alignment */
 }
 
 .team-member img {
@@ -144,6 +168,17 @@ search: false
 
 .team-member img:hover {
   transform: scale(1.05);
+}
+
+.team-member a {
+  color: inherit;         /* same color as surrounding text */
+  text-decoration: none;  /* remove underline */
+  font-weight: inherit;   /* keep same weight */
+}
+
+.team-member a:hover {
+  text-decoration: underline; /* optional: underline on hover */
+  color: inherit;             /* no color change on hover */
 }
 
 .team-member h3 {
@@ -192,7 +227,7 @@ body.layout--team_member .page__content {
 
 /* Fixed left column for photo */
 .team-profile-photo {
-  flex: 0 0 200px;        /* slightly larger column */
+  flex: 0 0 170px;        /* slightly larger column */
   text-align: center;
 }
 
