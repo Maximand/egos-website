@@ -9,7 +9,7 @@ header:
   cta_url: "/about/"
 ---
 <p align="center">
-  <img src="/assets/egos-logo.png" alt="EGOS logo" style="max-width: 75%; height: auto;">
+  <img src="/assets/EGOS-logo.png" alt="EGOS logo" style="max-width: 75%; height: auto;">
 </p>
 
 <!--<div class="text-center">
