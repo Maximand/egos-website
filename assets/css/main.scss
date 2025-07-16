@@ -221,13 +221,13 @@ body.layout--team_member .page__content {
   display: flex;
   align-items: flex-start;
   gap: 40px;
-  /*padding: 0 5%;      */    /* small side padding */
-  padding-top: 5%;
+  padding: 0 5%;          /* small side padding */
+  /*padding-top: 5%;*/
 }
 
 /* Fixed left column for photo */
 .team-profile-photo {
-  flex: 0 0 170px;        /* slightly larger column */
+  flex: 0 0 300px;        /* slightly larger column */
   text-align: center;
 }
 
@@ -244,9 +244,9 @@ body.layout--team_member .page__content {
 .team-profile-bio {
   flex: 1;
   width: auto;
-  font-size: 1.05rem;
-  line-height: 1.65;
-  min-width: 0;           /* prevent flexbox shrinking weirdness */
+  font-size: 1rem;
+  line-height: 1.6;
+  min-width: 50%;           /* prevent flexbox shrinking weirdness */
 }
 
 /* Responsive stacking */
