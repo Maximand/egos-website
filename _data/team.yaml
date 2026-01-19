@@ -73,12 +73,28 @@
   profile: "/team/frederik-zuiderveen-borgesius/"
   scholar: "https://scholar.google.com/citations?user=WbsKG-gAAAAJ"
 
+- id: "max-van-der-horst"
+  name: "Max van der Horst"
+  role: "PhD Researcher"
+  institution: "TU Delft"
+  institution-url: "https://tudelft.nl"
+  photo: "/assets/team/max.jpg"
+  profile: "/team/max-van-der-horst/"
+  website: "https://disclosing.observer"
+  email: "m.h.vanderhorst@tudelft.nl"
+  scholar: "https://scholar.google.com/citations?user=OW_MGpUAAAAJ"
+  bio: "Max van der Horst is a cybersecurity researcher and PhD candidate at Delft University of Technology, focusing on improving anti-abuse strategy for hosting infrastructure. His work combines large-scale empirical measurements with policy and governance analysis to improve the security of hosting providers and the broader Internet. 
+  <br><br>
+  In addition, Max is a volunteer at the Dutch Institute for Vulnerability Disclosure (DIVD), where he has contributed to vulnerability research spanning more than a million vulnerability notifications globally. His research interests include threat intelligence, vulnerability management, and the ethical dimensions of cybersecurity governance.
+  <br><br>
+  Prior to joining academia, Max has worked in various roles in the cybersecurity and defence industry related to cyber threat intelligence and cybersecurity R&D."
+
 - id: "nicolo-fontana"
   name: "Nicolò Fontana"
   role: "PhD Researcher"
   institution: "TU Delft"
   institution-url: "https://tudelft.nl"
-  photo: "/assets/team/nicolo.png"
+  photo: "/assets/team/nicolo.jpg"
   profile: "/team/nicolo-fontana/"
   email: "N.Fontana@tudelft.nl"
   scholar: "https://scholar.google.com/citations?hl=en&user=fb1sclAAAAAJ"
@@ -93,7 +109,7 @@
   role: "PhD Researcher"
   institution: "Radboud Universiteit"
   institution-url: "https://ru.nl"
-  photo: "/assets/team/rik.png"
+  photo: "/assets/team/rik.jpg"
   profile: "/team/rik-groteboer/"
   email: "rik.groteboer@ru.nl"
   bio: "Rik Groteboer is a PhD candidate at the Radboud University in Nijmegen, at the interdisciplinary research hub on Digitalization and Society (iHub). Rik’s research focuses on the European legislation on content moderation and platform governance, more specifically, on the formal institutionalisation of ‘trusted flaggers’ and legal aspects surrounding the implementation of rules on ‘trusted flaggers’ in practice.
