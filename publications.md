@@ -12,6 +12,7 @@ permalink: /publications/
 {{ pub.authors }}.
 <a href="{{ pub.pdf }}">{{ pub.title }}</a>.
 <em>{{ pub.venue }}, {{ pub.year }}.</em>
+{% if pub.award %}<br><strong class="pub-award">{{ pub.award }}</strong>{% endif %}
 </p>
 <div class="pub-links">
 {% if pub.pdf %}<a href="{{ pub.pdf }}">PDF</a>{% endif %}
